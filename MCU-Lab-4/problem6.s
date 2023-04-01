@@ -23,6 +23,7 @@ loop								;loop started
 	CMP r1, r2						;comparing the counter with the array size
 	BLT loop						;BLT means branch if less than that is if r1<r2 then go back to the loop
 	SDIV r0, r1						;exit the loop and calculate the average
+	BX LR
 
 	
 
